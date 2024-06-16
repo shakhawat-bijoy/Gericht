@@ -7,7 +7,7 @@ import spoon from '../assets/spoon.png'
 import fork from '../assets/fork.png'
 import Button from './layer/Button'
 
-const About = () => {
+const AboutUs = () => {
   return (
     <div className="py-32 bg-bg-img bg-cover z-20">
           <div className='h-[100vh] relative '>
@@ -25,7 +25,7 @@ const About = () => {
               <Image className="rotate-180" src={spoon} alt={"spoon"} />
             </p>
             <p className='text-base text-[#AAA] leading-7 my-8 font-OS'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
-            <Button text="Know More" />
+            <Button to="/about-us" text="Know More" />
           </div>
           <div className='center'><Image className="cursor-auto" src={knife} /></div>
 
@@ -48,4 +48,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutUs

@@ -55,13 +55,11 @@ const Banner = () => {
           i === active
             ? {
               color: "#fff",
-              fontSize: "20px",
               padding: "9px 10px 9px 0",
               fontSize: "20px",
             }
             : {
               color: "#aaa",
-              fontSize: "20px",
               padding: "9px 10px 9px 0",
               fontSize: "20px",
             }
