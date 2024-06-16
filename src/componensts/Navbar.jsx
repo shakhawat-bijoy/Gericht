@@ -2,7 +2,7 @@ import React from 'react'
 import Container from './layer/Container'
 import Image from './layer/Image'
 import logo from '../assets/logo.png'
-import line from '../assets/line.png'
+import line from '../assets/Line.png'
 import Listitem from './layer/Listitem'
 import { Link } from 'react-router-dom'
 
