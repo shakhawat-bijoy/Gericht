@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import Image from '../layer/Image';
 import AboutHeader from './AboutHeader';
 
-const AboutBanner = () => {
+const AboutBanner = ({text}) => {
   const settings = {
     dots: false,
     arrows: false,
@@ -24,14 +24,14 @@ const AboutBanner = () => {
         <div className="relative w-full">
           <Image className="object-cover w-full" src={about1}/>
           <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-40 transition-all duration-300 group">
-            <AboutHeader className="text-[#DCCA87] font-CU text-[90px] font-bold leading-[117px] tracking-[3.6px]" text="Welcome to Gerícht"/>
+            <AboutHeader className="text-[#DCCA87] font-CU text-[90px] font-bold leading-[117px] tracking-[3.6px]" text={text}/>
           </div>
         </div>
 
         <div className="relative w-full">
           <Image className="object-cover w-full " src={about2}/>
           <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-40 transition-all duration-300 group">
-            <AboutHeader className="text-[#DCCA87] font-CU text-[90px] font-bold leading-[117px] tracking-[3.6px]" text="Welcome to Gerícht"/>
+            <AboutHeader className="text-[#DCCA87] font-CU text-[90px] font-bold leading-[117px] tracking-[3.6px]" text={text}/>
           </div>
         </div>
       </Slider>

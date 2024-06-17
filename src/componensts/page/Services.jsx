@@ -9,7 +9,7 @@ import Newsletter from '../Newsletter'
 const Services = () => {
   return (
     <div className="bg-home-bg z-10 bg-repeat-x">
-        <AboutBanner/>
+        <AboutBanner text="What We offer"/>
         <Quality/>
         <BarMenu/>
         <Reservations/>

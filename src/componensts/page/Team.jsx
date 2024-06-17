@@ -8,7 +8,7 @@ import Chefss from '../chef-team/Chefss'
 const Team = () => {
   return (
     <div className="bg-home-bg z-10 bg-repeat-x">
-        <AboutBanner/>
+        <AboutBanner text="Our Chefs"/>
         <Chefss/>
         <Video/>
         <Laurels/>

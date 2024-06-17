@@ -7,7 +7,7 @@ import Newsletter from '../Newsletter'
 const Chef = () => {
   return (
     <div className="bg-home-bg z-10 bg-repeat-x">
-        <AboutBanner/>
+        <AboutBanner text="Our Chefs"/>
         <ChefsDetails/>
         <ChefAchive/>
         <Newsletter/>
@@ -16,3 +16,6 @@ const Chef = () => {
 }
 
 export default Chef
+
+
+// this part is under Team page

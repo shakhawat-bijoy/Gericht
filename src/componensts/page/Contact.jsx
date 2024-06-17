@@ -7,7 +7,7 @@ import Newsletter from '../Newsletter'
 const Contact = () => {
   return (
     <div className="bg-home-bg z-10 bg-repeat-x">
-        <AboutBanner/>
+        <AboutBanner text="Contact Us"/>
         <Map/>
         <Subscribe/>
         <Newsletter/>

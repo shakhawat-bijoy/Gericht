@@ -10,7 +10,7 @@ import Newsletter from '../Newsletter'
 const About = () => {
   return (
     <div className="bg-home-bg z-10 bg-repeat-x">
-      <AboutBanner/>
+      <AboutBanner text="Welcome to Gerícht"/>
       <AboutHistory/>
       <AboutVideo/>
       <ChefWord/>

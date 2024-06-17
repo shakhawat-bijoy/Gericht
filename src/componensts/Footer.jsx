@@ -82,7 +82,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <p className='text-[#aaa] text-base leading-7 flex justify-center pt-20 font-OS tracking-wide'>2024 Gerícht, Team-B All Rights reserved.</p>
+            <p className='text-[#aaa] text-base leading-7 flex justify-center pt-20 font-OS tracking-wide'>2024 Gerícht, Shakhawat Bijoy All Rights reserved.</p>
         </Container>
     </div>
   )

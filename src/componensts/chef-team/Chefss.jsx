@@ -23,7 +23,7 @@ const Chefss = () => {
               <p className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-0 hover:bg-opacity-50 transition-all duration-300 group"></p>
           </div>
           </div>
-          <Link to="/chef-detail">
+          <Link to="/chef-details">
             <h5 className='text-[#DCCA87] text-[45px] font-semibold leading-[58.5px] tracking-[1.8px] font-CU mt-8 mb-2'>Kevin Luo</h5>
             <p className='font-OS text-base leading-7 text-[#FFF]'>Head Chef</p>
           </Link>
@@ -61,7 +61,7 @@ const Chefss = () => {
             <Image src={chef2}/>
               <p className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-0 hover:bg-opacity-50 transition-all duration-300 group"></p>
               </div>
-            <Link to="/chef-detail">
+            <Link to="/chef-details">
               <h5 className='text-[#DCCA87] text-[45px] font-semibold leading-[58.5px] tracking-[1.8px] font-CU mt-8 mb-2'>Patrick Choi</h5>
               <p className='font-OS text-base leading-7 text-[#FFF]'>Deputy Chef</p>
             </Link>
@@ -100,7 +100,7 @@ const Chefss = () => {
               <p className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-0 hover:bg-opacity-50 transition-all duration-300 group"></p>
               </div>
 
-              <Link to="/chef-detail">
+              <Link to="/chef-details">
             <h5 className='text-[#DCCA87] text-[45px] font-semibold leading-[58.5px] tracking-[1.8px] font-CU mt-8 mb-2'>Jack Biscoff</h5>
             <p className='font-OS text-base leading-7 text-[#FFF]'>Station Chef</p>
             </Link>
@@ -143,7 +143,7 @@ const Chefss = () => {
             <Image src={chef4}/>
               <p className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-0 hover:bg-opacity-50 transition-all duration-300 group"></p>
               </div>
-              <Link to="/chef-detail">
+              <Link to="/chef-details">
             <h5 className='text-[#DCCA87] text-[45px] font-semibold leading-[58.5px] tracking-[1.8px] font-CU mt-8 mb-2'>Stacy Lee</h5>
             <p className='font-OS text-base leading-7 text-[#FFF]'>Station Chef</p>
             </Link>
@@ -181,7 +181,7 @@ const Chefss = () => {
             <Image src={chef5}/>
               <p className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-0 hover:bg-opacity-50 transition-all duration-300 group"></p>
               </div>
-              <Link to="/chef-detail">
+              <Link to="/chef-details">
             <h5 className='text-[#DCCA87] text-[45px] font-semibold leading-[58.5px] tracking-[1.8px] font-CU mt-8 mb-2'>Aren Goodman </h5>
             <p className='font-OS text-base leading-7 text-[#FFF]'>Junior Chef</p>
             
@@ -219,7 +219,7 @@ const Chefss = () => {
             <Image src={chef6}/>
               <p className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-0 hover:bg-opacity-50 transition-all duration-300 group"></p>
               </div>
-              <Link to="/chef-detail">
+              <Link to="/chef-details">
             <h5 className='text-[#DCCA87] text-[45px] font-semibold leading-[58.5px] tracking-[1.8px] font-CU mt-8 mb-2'>Javier Dowsing</h5>
             <p className='font-OS text-base leading-7 text-[#FFF]'>Junior Chef</p>
             </Link>
