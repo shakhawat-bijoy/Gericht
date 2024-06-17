@@ -12,6 +12,8 @@ import About from "./componensts/page/About";
 import Contact from "./componensts/page/Contact";
 import Services from "./componensts/page/Services";
 import Team from "./componensts/page/Team";
+import Chefdetail from "./componensts/page/Chef";
+
 
 
 
@@ -28,6 +30,9 @@ const App = () => {
         <Route path="/contact-us" element={<Contact/>} ></Route>
         <Route path="/our-services" element={<Services/>} ></Route>
         <Route path="/our-team" element={<Team/>} ></Route>
+        <Route path="/chef-detail" element={<Chefdetail/>} ></Route>   
+        {/* eita team er vitore */}
+        
 
       </Route>
     )

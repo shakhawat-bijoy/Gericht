@@ -1,20 +1,18 @@
 import React from 'react'
 import AboutBanner from '../about/AboutBanner'
-import Video from '../Video'
-import Laurels from '../Laurels'
+import ChefInside from '../chef-team/ChefInside'
+import ChefAchive from '../chef-team/ChefAchive'
 import Newsletter from '../Newsletter'
-import Chefss from '../chef-team/Chefss'
 
-const Team = () => {
+const Chef = () => {
   return (
     <div className="bg-home-bg z-10 bg-repeat-x">
         <AboutBanner/>
-        <Chefss/>
-        <Video/>
-        <Laurels/>
+        <ChefInside/>
+        <ChefAchive/>
         <Newsletter/>
     </div>
   )
 }
 
-export default Team
+export default Chef
