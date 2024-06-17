@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutBanner from '../about/AboutBanner'
-import ChefInside from '../chef-team/ChefInside'
+import ChefsDetails from '.././chef-team/ChefDetails'
 import ChefAchive from '../chef-team/ChefAchive'
 import Newsletter from '../Newsletter'
 
@@ -8,7 +8,7 @@ const Chef = () => {
   return (
     <div className="bg-home-bg z-10 bg-repeat-x">
         <AboutBanner/>
-        <ChefInside/>
+        <ChefsDetails/>
         <ChefAchive/>
         <Newsletter/>
     </div>

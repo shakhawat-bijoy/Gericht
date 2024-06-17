@@ -254,10 +254,13 @@ const Chefss = () => {
 
 
 
-
        
     </div>
   )
 }
 
 export default Chefss
+
+
+
+{/* called in Team Page */}

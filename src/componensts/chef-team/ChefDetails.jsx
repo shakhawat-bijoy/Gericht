@@ -7,7 +7,7 @@ import Line2 from "../../assets/Line2.png"
 import fork from "../../assets/fork.png"
 import PatrickChoi from "../../assets/PatrickChoi.png"
 
-const ChefInside = () => {
+const ChefsDetails = () => {
     return (
         <div className=" bg-bg-img bg-cover z-20 py-32">
             <Container>
@@ -68,4 +68,4 @@ const ChefInside = () => {
     )
 }
 
-export default ChefInside
+export default ChefsDetails
