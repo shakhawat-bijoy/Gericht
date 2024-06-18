@@ -42,20 +42,16 @@ const Footer = () => {
                     </div>
                     <div className='text-[#fff] flex gap-x-4 '>
                         <Link to={`https://www.facebook.com/bijoy1x`} target='_blank'>
-                            <FaFacebookF />
+                            <FaFacebookF  className='hover:text-[#DCCA87]'/>
                         </Link>
 
                         <Link to={`https://twitter.com/bijoy_shakhawat`} target='_blank'>
-                            <FiTwitter />
+                            <FiTwitter  className='hover:text-[#DCCA87]'/>
                         </Link>
                         
                         <Link to={`https://www.instagram.com/bijoy_shakhawat/`} target='_blank'>
-                        <FaInstagram />
-                        </Link>
-                        
-                        
-                        
-                        
+                        <FaInstagram  className='hover:text-[#DCCA87]'/>
+                        </Link> 
                     </div>
                 </div>
 

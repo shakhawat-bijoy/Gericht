@@ -18,7 +18,7 @@ const Chefss = () => {
         <div className='flex gap-x-8'>
           <div className='w-[412px] h-[646px] relative overflow-hidden group'>
         <div className='relative'>
-        <div className='border border-[#DCCA87] hover:border-none transition-all duration-200'>
+        <div className='border border-[#DCCA87]'>
             <Image src={chef1}/>
               <p className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-0 hover:bg-opacity-50 transition-all duration-300 group"></p>
           </div>

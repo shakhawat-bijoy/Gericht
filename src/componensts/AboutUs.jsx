@@ -9,7 +9,7 @@ import Button from './layer/Button'
 
 const AboutUs = () => {
   return (
-    <div className="py-32 bg-bg-img bg-cover z-20">
+    <div className="bg-bg-img bg-cover z-20">
           <div className='h-[100vh] relative '>
       <Container className="flex items-center justify-center">
 

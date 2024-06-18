@@ -13,6 +13,7 @@ import Contact from "./componensts/page/Contact";
 import Services from "./componensts/page/Services";
 import Team from "./componensts/page/Team";
 import Chef from "./componensts/page/Chef";
+import Blog from "./componensts/page/Blog";
 
 
 
@@ -30,9 +31,9 @@ const App = () => {
         <Route path="/contact-us" element={<Contact/>} ></Route>
         <Route path="/our-services" element={<Services/>} ></Route>
         <Route path="/our-team" element={<Team/>} ></Route>
-        <Route path="/chef" element={<Chef/>} ></Route>
         <Route path="/chef-details" element={<Chef/>} ></Route>   
         {/* eita team er vitore */}
+        <Route path="/our-blogs" element={<Blog/>} ></Route>   
         
 
       </Route>
