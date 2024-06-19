@@ -7,6 +7,7 @@ import rightwave from '../../assets/rightwave.png'
 import spoon2 from '../../assets/spoon2.png'
 import Button from '../layer/Button'
 import Navbar from '../Navbar'
+import { Link } from 'react-router-dom'
 
 const Error = () => {
   return (
@@ -14,7 +15,7 @@ const Error = () => {
         <Navbar/>
     <div className='flex flex-col justify-center items-center'>
         
-    <div className='max-w-[610px] flex flex-col gap-y-8 justify-center items-center  pt-[209px] pb-32'>
+    <div className='max-w-[610px] flex flex-col gap-y-8 justify-center items-center  pt-[150px] pb-44'>
         <div className='flex flex-col gap-y-4 justify-center items-center'>
         <Image className="rotate-180" src={fork}/>
         <svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" fill="none">
@@ -27,7 +28,11 @@ const Error = () => {
         <p className='text-[#fff] text-2xl font-CU font-bold leading-8 capitalize tracking-[0.92px] text-center'>Oops! The page you are looking for does not exist. It might have been moved or deleted.</p>
         <Button to="/" text="Back To Home" className="w-[162px]"/>
     </div>
-        <p className='text-[#aaa] text-base leading-7 mt-2 flex justify-center font-OS tracking-wide'>2024 Gerícht, Shakhawat Bijoy All Rights reserved.</p>
+            <p className='text-[#aaa] text-base leading-7 flex justify-center font-OS tracking-wide'>2024 Gerícht, Made with ❣️ by 
+                <span className='text-[#aaa] text-2xl leading-7 flex justify-center font-CU tracking-wide pl-4 font-extrabold '>
+                    <Link target='_blank' to="https://shakhawat-bijoy.vercel.app/">Shakhawat Bijoy</Link>
+                </span> 
+            </p>
     </div>
     <Image className="absolute top-0 inset-0 " src={wave}/>
     <Image className="absolute top-0 inset-0 " src={leftwave}/>

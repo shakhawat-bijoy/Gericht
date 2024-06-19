@@ -21,8 +21,8 @@ const Footer = () => {
                     <Link to="tel:+8801704446708"> 
                         <p>+8801704446708</p>
                     </Link>
-                    <Link to="tel:+8801703561733"> 
-                        <p>+8801703561733</p>
+                    <Link to="tel:+8801818825666"> 
+                        <p>+8801818825666</p>
                     </Link>
                 </div>
                 </div>
@@ -78,7 +78,9 @@ const Footer = () => {
                 </div>
             </div>
 
-            <p className='text-[#aaa] text-base leading-7 flex justify-center pt-20 font-OS tracking-wide'>2024 Gerícht, Shakhawat Bijoy All Rights reserved.</p>
+            <p className='text-[#aaa] text-base leading-7 flex justify-center pt-20 font-OS tracking-wide'>2024 Gerícht, Made with ❣️ by <span className='text-[#aaa] text-2xl leading-7 flex justify-center font-CU tracking-wide pl-4 font-extrabold '>
+            <Link target='_blank' to="https://shakhawat-bijoy.vercel.app/">Shakhawat Bijoy</Link>
+                </span> </p>
         </Container>
     </div>
   )
