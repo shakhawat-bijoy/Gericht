@@ -20,7 +20,7 @@ const AboutHistory = () => {
         </div>
 
 
-        <div className='w-full flex justify-between'>
+        <div className='w-full flex justify-center gap-x-[143px]'>
             <div className="left max-w-[523px] flex flex-col gap-y-10">
                 <p className='text-[#aaa] font-OS text-base font-normal leading-7 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
                 <Image src={abouthistory}/>
