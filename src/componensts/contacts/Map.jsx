@@ -12,7 +12,7 @@ const Map = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
         <p className="absolute inset-0 flex justify-center items-center bg-[#000000] bg-opacity-40 transition-all duration-300 group pointer-events-none">
-          Your Overlay Text
+          
         </p>
       </div>
     </div>
