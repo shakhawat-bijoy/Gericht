@@ -21,12 +21,14 @@ const LeftBlog = () => {
         <div className='w-[412px] '>
             <div className='group'>
 
-                <p className='text-[#DCCA87] font-CU text-[32px] leading-[42px] capitalize
-                mt-8 tracking-[1.28px] relative group inline-block'>tips for prepping and caring<span className="absolute -bottom-[0.5px] left-0 w-0 h-[1px] bg-[#DCCA87] transition-all duration-300 group-hover:w-full"></span></p>
-                <p className='text-[#DCCA87] font-CU text-[32px] leading-[42px] capitalize tracking-[1.28px] relative group inline-block'>
-                for your grill
-                <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#DCCA87] transition-all duration-700 group-hover:w-full"></span>
-                </p>
+                <Link to="/blogs-detail">
+                  <p className='text-[#DCCA87] font-CU text-[32px] leading-[42px] capitalize
+                  mt-8 tracking-[1.28px] relative group inline-block'>tips for prepping and caring<span className="absolute -bottom-[0.5px] left-0 w-0 h-[1px] bg-[#DCCA87] transition-all duration-300 group-hover:w-full"></span></p>
+                  <p className='text-[#DCCA87] font-CU text-[32px] leading-[42px] capitalize tracking-[1.28px] relative group inline-block'>
+                  for your grill
+                  <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#DCCA87] transition-all duration-700 group-hover:w-full"></span>
+                  </p>
+                </Link>
             </div>
 
         <p className='font-OS text-[#AAA] mt-8 mb-8 leading-7 tracking-[0.64px] text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>

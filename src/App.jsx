@@ -14,6 +14,8 @@ import Services from "./componensts/page/Services";
 import Team from "./componensts/page/Team";
 import Chef from "./componensts/page/Chef";
 import Blog from "./componensts/page/Blog";
+import BlogsDetail from "./componensts/page/BlogsDetail";
+import Error from "./componensts/page/Error";
 
 
 
@@ -25,6 +27,7 @@ const App = () => {
       <Route
         path="/"
         element={<RootLayout/>}
+        errorElement={<Error/>}
       >
         <Route index element={<Home/>} ></Route>
         <Route path="/about-us" element={<About/>} ></Route>
@@ -34,6 +37,7 @@ const App = () => {
         <Route path="/chef-details" element={<Chef/>} ></Route>   
         {/* eita team er vitore */}
         <Route path="/our-blogs" element={<Blog/>} ></Route>   
+        <Route path="/blogs-detail" element={<BlogsDetail/>} ></Route>   
         
 
       </Route>

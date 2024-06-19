@@ -18,7 +18,7 @@ const Sidebar = () => {
             <input 
             type="text" 
             placeholder='Example'
-            className='outline-none bg-transparent text-[#aaa] text-base font-OS leading-7 w-[311px] border-b border-[#aaa]'
+            className='outline-none bg-transparent text-[#aaa] text-base font-OS leading-7 w-[311px] border-b border-[#aaa] hover:border-b-2 hover:border-[#DCCA87] transition-all duration-300'
             />
             <FaSearch className='absolute text-white right-0 top-0 translate-y-[50%]'/>
             </div>

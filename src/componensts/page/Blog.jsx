@@ -37,7 +37,7 @@ const Blog = () => {
 
   return (
     <div className="bg-home-bg">
-      <AboutBanner text={`Welcome to Gerícht - ${breadcrumbText}`} />
+      <AboutBanner text={`Our Blogs ${breadcrumbText}`} />
 
       <div className="flex flex-col items-center">
         <ul className="flex gap-x-10 max-w-[500px] mt-10">
