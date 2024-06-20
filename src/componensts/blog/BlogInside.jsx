@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from '../layer/Image'
 import Blog1 from '../../assets/Blog1.jpg'
+import comment1 from '../../assets/comment1.jpg'
+import comment2 from '../../assets/comment2.jpg'
+import comment3 from '../../assets/comment3.jpg'
 import blogdetail1 from '../../assets/blogdetail1.jpg'
 import Line2 from "../../assets/Line2.png"
 import comma from "../../assets/comma.png"
@@ -8,17 +11,19 @@ import Video from '../Video'
 import Sidebar from './Sidebar'
 import { BiComment } from 'react-icons/bi'
 import { FaRegHeart } from 'react-icons/fa'
+import Button from '../layer/Button'
+import Newsletter from '../Newsletter'
 
 const BlogInside = () => {
   return (
-    <div className='py-[152px]'>
+    <div className='py-20'>
         <div className='max-w-[1300px] flex flex-col  mx-auto gap-y-10'>
             <div className='flex justify-between mb-6'>
             <p className='text-[#FAFAFA] font-OS text-[16px] leading-7 '>16 Apr 2021</p>
             <p className='text-[#FAFAFA] font-OS text-[16px] leading-7'>- Annalisa L</p>
             
             </div>
-            <div>
+            <div className='group'>
 
             <p className='text-[#DCCA87] font-CU text-[64px] leading-[83.2px] capitalize font-semibold
                 mb-10 tracking-[1.92px] relative group inline-block'>tips for prepping and caring for your grill<span className="absolute -bottom-[0.5px] left-0 w-0 h-[1px] bg-[#DCCA87] transition-all duration-300 group-hover:w-full"></span>
@@ -132,6 +137,152 @@ const BlogInside = () => {
             </div>
 
         </div>
+
+
+        {/* ============================================ */}
+
+        <div className='max-w-[1300px] flex flex-col gap-y-8 mx-auto my-[152px]'>
+            <p className='text-[#DCCA87] font-CU text-[32px] leading-[41.6px] tracking-[1.28px] mb-8'>Comment(3)</p>
+            <div className='max-w-[967px] flex flex-col gap-y-4'>
+
+            <div className='w-[913px] flex gap-x-6 items-center px-8 py-4'>
+
+                <div className='w-[150px] h-[150px] object-cover'>
+                
+                    <Image src={comment1}/>
+                </div>
+
+                    <div className='flex flex-col gap-y-2 w-full'>
+                        <div className='flex justify-between items-center'>
+                            <h5 className='text-[#fff] font-CU text-[23px] font-bold leading-[30px] tracking-[0.92px] capitalize '>Nora Martin</h5>
+                            <button className='text-[#aaa] font-OS font-normal text-base leading-7 tracking-[0.64px] hover:text-[#fff]'>Reply</button>
+
+                        </div>
+
+                            <p className='text-[#aaa] font-OS text-base leading-7 tracking-[0.64px]'>01 Dec 2020</p>
+                            <p className='text-[#aaa] font-OS text-base leading-7 tracking-[0.64px] max-w-[635px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut eu morbi tincidunt erat egestas quisque ultrices ut. Vel elementum blandit et tellus sit tincidunt nulla non tincidunt.</p>
+                    </div>
+            </div>
+
+                
+            <div className='w-[814px] flex gap-x-6 items-center ml-[99px] px-8 py-4'>
+
+                <div className='w-[150px] h-[150px] object-cover'>
+                
+                    <Image src={comment2}/>
+                </div>
+
+                    <div className='flex flex-col gap-y-2 w-full'>
+                        <div className='flex justify-between items-center'>
+                            <h5 className='text-[#fff] font-CU text-[23px] font-bold leading-[30px] tracking-[0.92px] capitalize '>Lara Williams</h5>
+                            <button className='text-[#aaa] font-OS font-normal text-base leading-7 tracking-[0.64px] hover:text-[#fff]'>Reply</button>
+
+                        </div>
+
+                            <p className='text-[#aaa] font-OS text-base leading-7 tracking-[0.64px]'>05 Dec 2020</p>
+                            <p className='text-[#aaa] font-OS text-base leading-7 tracking-[0.64px] max-w-[635px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut eu morbi tincidunt erat egestas quisque ultrices ut. Vel elementum blandit et tellus sit tincidunt nulla non tincidunt.</p>
+                    </div>
+            </div>
+
+
+
+
+
+            <div>
+            <div className='w-[913px] flex gap-x-6 px-8 py-4 mt-2'>
+
+                <div className='w-[150px] h-[150px] object-cover'>
+
+                    <Image src={comment3}/>
+                </div>
+
+                    <div className='flex flex-col gap-y-4 w-full'>
+                        <div className='flex justify-between items-center'>
+                            <h5 className='text-[#fff] font-CU text-[23px] font-bold leading-[30px] tracking-[0.92px] capitalize '>Jane Cooper</h5>
+                            <button className='text-[#aaa] font-OS font-normal text-base leading-7 tracking-[0.64px] hover:text-[#fff]'>Reply</button>
+
+                        </div>
+
+                            <p className='text-[#aaa] font-OS text-base leading-7 tracking-[0.64px]'>05 Dec 2020</p>
+                            <p className='text-[#aaa] font-OS text-base leading-7 tracking-[0.64px] max-w-[635px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut eu morbi tincidunt erat egestas quisque ultrices ut. Vel elementum blandit et tellus sit tincidunt nulla non tincidunt.</p>
+
+                            <div className='flex gap-x-8'> 
+                                <button className='text-[#fff] font-OS font-normal text-base leading-7 tracking-[0.64px]'>Reply to Nora Martin</button>
+                                <button className='text-[#aaa] font-OS font-normal text-base leading-7 tracking-[0.64px] hover:text-[#fff]'>Cancel Reply</button>
+                            </div>
+
+                           
+                                <textarea className='w-[635px] outline-none bg-transparent border border-[#DCCA87] py-4 px-8 text-[#fff]' 
+                                 rows={5}
+                                 placeholder='Hi there! I love your blog....'
+                                 type="text" />
+
+                            <Button
+                                className="p-2 w-[113px]"
+                                type="submit"
+                                text="Submit"
+                                >
+                                
+                            </Button>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+
+        </div>
+
+
+        {/* ============================================ */}
+
+
+        <div className='w-[1300px] flex justify-center pb-6'>
+
+            <div className='w-[635px] flex flex-col gap-y-10'>
+                <p className='text-[#DCCA87] font-CU text-[32px] leading-[41.6px] tracking-[1.28px]'>Post a Comment</p>
+
+                <textarea className='w-[635px] outline-none bg-transparent border border-[#DCCA87] py-4 px-4 text-[#fff]' 
+                    rows={5}
+                    placeholder='Hi there! I love your blog....'
+                    type="text" />
+
+                <div className='flex justify-between gap-x-8'>
+                    <input
+                        className='w-[301px] outline-none bg-transparent border border-[#DCCA87] py-4 px-4 text-[#fff]' 
+                        
+                        placeholder='First Name'
+                        type="text" />
+
+                    <input
+                        className='w-[301px] outline-none bg-transparent border border-[#DCCA87] py-4 px-4 text-[#fff]' 
+                        
+                        placeholder='Last Name'
+                        type="text" />
+
+                </div>
+                <p className='text-[#aaa] font-OS text-base leading-7 tracking-[0.64px] flex items-center gap-x-2'>
+                        <span ><input type="checkbox"  /></span>
+                        Save my name and email in this browser for the next time I comment.
+                    </p>
+
+                    <Button
+                        className="p-2 w-[113px]"
+                        type="submit"
+                        text="Submit"
+                        >
+                                
+                    </Button>
+            </div>
+        </div>
+
+
+
+
+        <Newsletter/>
+
+
+
     </div>
   )
 }

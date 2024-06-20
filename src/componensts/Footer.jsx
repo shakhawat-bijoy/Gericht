@@ -10,7 +10,7 @@ import { FiTwitter } from 'react-icons/fi'
 
 const Footer = () => {
   return (
-    <div className=' bg-bg-img bg-cover h-[837px]'>
+    <div className=' bg-bg-img bg-cover py-10'>
         <Container>
             <div className='pt-[349px] flex justify-center items-center' >
                 <div className='flex flex-col gap-y-6 mr-[125px]'>
