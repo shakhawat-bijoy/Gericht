@@ -34,7 +34,7 @@ const Error = () => {
                 </span> 
             </p>
     </div>
-    <Image className="absolute top-0 inset-0 " src={wave}/>
+    <Image className="absolute top-0 inset-0 w-full" src={wave}/>
     <Image className="absolute top-0 inset-0 " src={leftwave}/>
     <Image className="absolute top-0 inset-0 " src={rightwave}/>
     </div>
