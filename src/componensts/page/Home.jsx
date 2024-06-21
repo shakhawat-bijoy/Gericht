@@ -7,7 +7,7 @@ import Review from '../Review'
 import SpecialMenu from '../SpecialMenu'
 import ChefWord from '../ChefWord'
 import Laurels from '../Laurels'
-import Blogs from '../Blogs'
+import UpdateBlogs from '../UpdateBlogs'
 import Video from '../Video'
 import Photogallery from '../Photogallery'
 import Newsletter from '../Newsletter'
@@ -26,7 +26,7 @@ const Home = () => {
         <Review/>
         <Video/>
         <Laurels/>
-        <Blogs/>
+        <UpdateBlogs/>
         <Photogallery/>
         <Newsletter/>
     </div>

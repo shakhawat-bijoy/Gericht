@@ -29,7 +29,7 @@ const App = () => {
       <Route
         path="/"
         element={<RootLayout/>}
-        errorElement={<Error/>}
+        // errorElement={<Error/>}
         
         
       >
