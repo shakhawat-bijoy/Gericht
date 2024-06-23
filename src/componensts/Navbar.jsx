@@ -13,13 +13,14 @@ const Navbar = () => {
             <div>
                <Image src={logo}/>
             </div>
-            <div className='ml-[437px]'>
-                <ul className='flex gap-x-8 z-10 items-center text-white text-base font-OS font-medium'>
+            <div className='ml-[400px]'>
+                <ul className='flex gap-x-8 z-10 items-center text-white text-base font-OS font-medium capitalize'>
                     <Listitem className="hover:text-[#DCCA87]" to="/" text="Home"/>
                     <Listitem className="hover:text-[#DCCA87]" to="/our-services" text="Services"/>
                     <Listitem className="hover:text-[#DCCA87]" to="/contact-us" text="Contact Us"/>
                     <Listitem className="hover:text-[#DCCA87]" to="/our-blogs" text="Blog"/>
                     <Listitem className="hover:text-[#DCCA87]" to="/our-team" text="Team"/>
+                    <Listitem className="hover:text-[#DCCA87]" to="/faq" text="faq"/>
                 </ul>
             </div>
             <div className='ml-[271px] flex gap-x-[50px]'>
