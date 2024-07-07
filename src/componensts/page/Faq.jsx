@@ -5,7 +5,6 @@ import AboutBanner from '../about/AboutBanner'
 import Newsletter from '../Newsletter'
 import { FaPlus } from 'react-icons/fa'
 import { GoTriangleDown } from 'react-icons/go'
-import { Link } from 'react-router-dom'
 
 const Faq = () => {
   let [show, setShow] = useState(false)

@@ -46,7 +46,7 @@ const ComingSoon = () => {
   });
 
   return (
-    <div className='bg-bg-img bg-cover relative h-[100vh]'>
+    <div className='bg-bg-img bg-cover relative h-[90vh]'>
 
       <div className="max-w-[1300px] mx-auto text-[#DCCA87] flex flex-col items-center gap-y-5 py-20">
         <h1 className="text-[90px] font-bold font-CU leading-[117px] tracking-[3.6px] capitalize">Coming Soon</h1>
