@@ -36,7 +36,7 @@ const Blog = () => {
   };
 
   return (
-    <div className="bg-home-bg">
+    <div className="bg-home-bg bg-[#070707]">
       <AboutBanner text={`Our Blogs ${breadcrumbText}`} />
 
       <div className="flex flex-col items-center">

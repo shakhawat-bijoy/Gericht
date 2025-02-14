@@ -12,7 +12,7 @@ const BlogsDetail = () => {
   }, []);
 
   return (
-    <div className='bg-home-bg'>
+    <div className='bg-home-bg bg-[#070707]'>
       <AboutBanner text={`Our Blogs - ${breadcrumbText}`} />
       <BlogInside/>
     </div>

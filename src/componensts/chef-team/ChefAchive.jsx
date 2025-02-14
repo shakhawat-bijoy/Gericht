@@ -14,7 +14,7 @@ import chefachive from '../../assets/chefachive.jpg'
 
 const ChefAchive = () => {
   return (
-    <div className='bg-bg-img bg-cover py-32'>
+    <div className=' bg-cover py-32 bg-[#070707] bg-home-bg'>
 
       <Container>
         

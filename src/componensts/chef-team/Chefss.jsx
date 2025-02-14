@@ -13,7 +13,7 @@ import { FiTwitter } from 'react-icons/fi'
 
 const Chefss = () => {
   return (
-    <div className='py-[152px] flex flex-col justify-center items-center gap-y-16'>
+    <div className='py-[152px] flex flex-col justify-center items-center gap-y-16 bg-[#070707] bg-home-bg'>
       
         <div className='flex gap-x-8'>
           <div className='w-[412px] h-[646px] relative overflow-hidden group'>

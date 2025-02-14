@@ -13,7 +13,7 @@ import comma from '../assets/comma.png'
 
 const Review = () => {
   return (
-    <div className='py-[152px]'>
+    <div className='py-[152px] bg-[#070707] bg-home-bg'>
         <Container className="!max-w-[1300px]">
             <div>
                 <div className='flex flex-col gap-y-2 justify-center items-center'>

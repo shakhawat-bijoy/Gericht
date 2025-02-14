@@ -9,9 +9,9 @@ import 'react-datepicker/dist/react-datepicker.css'; // Import Date Picker CSS
 
 const Reservations = () => {
   return (
-    <div className='h-[959px] flex justify-center items-center'>
+    <div className='h-[959px] bg-[#070707] bg-home-bg flex justify-center items-center'>
       <Container>
-        <div className='w-[1364px] bg-[#0C0C0C] border text-center py-12 px-8'>
+        <div className='w-[1364px] bg-[#070707] border text-center py-12 px-8'>
           <div className='header m-auto'>
             <p className='text-[#FFFFFF] font-CU text-[23px] font-bold leading-[30px]'>Reservations</p>
             <p className='mt-2 flex justify-center gap-x-2'>

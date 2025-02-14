@@ -66,7 +66,7 @@ const UpdateBlogs = () => {
   };
 
   return (
-    <div className='py-[152px] '>
+    <div className='py-[152px] bg-[#070707] bg-home-bg'>
       
         <div className=''>
 

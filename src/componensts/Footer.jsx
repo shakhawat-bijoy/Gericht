@@ -10,7 +10,7 @@ import { FiTwitter } from 'react-icons/fi'
 
 const Footer = () => {
   return (
-    <div className=' bg-bg-img bg-cover py-10'>
+    <div className=' bg-bg-img bg-cover py-10 '>
         <Container>
             <div className='pt-[349px] flex justify-center items-center' >
                 <div className='flex flex-col gap-y-6 mr-[125px]'>
@@ -79,7 +79,7 @@ const Footer = () => {
             </div>
 
             <p className='text-[#aaa] text-base leading-7 flex justify-center pt-20 font-OS tracking-wide'>2024 Gerícht, Made with ❣️ by <span className='text-[#aaa] text-2xl leading-7 flex justify-center font-CU tracking-wide pl-4 font-extrabold '>
-            <Link target='_blank' to="https://shakhawat-bijoy.vercel.app/">Shakhawat Bijoy</Link>
+            <Link target='_blank' to="https://shakhawat-bijoy.vercel.app/">Team SMUCT</Link>
                 </span> </p>
         </Container>
     </div>

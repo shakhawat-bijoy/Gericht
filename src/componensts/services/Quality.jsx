@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom'
 
 const Quality = () => {
   return (
-    <div className='max-w-[1300px] py-[152px] mx-auto flex flex-col items-center'>
+    <div className='bg-[#070707] bg-home-bg'>
+      <div className='max-w-[1300px] py-[152px] mx-auto flex flex-col items-center'>
         <div className='text-center'>
             <p className='text-[#fff] font-CU text-[23px] font-bold leading-[30px]'>Serving Quality</p>
             <div className="flex  gap-x-2 my-2 justify-center items-center">
@@ -29,6 +30,7 @@ const Quality = () => {
       
         </Link>
         </div>
+    </div>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Map = () => {
   return (
-    <div className='flex justify-center items-center py-[152px]'>
+    <div className='flex justify-center items-center py-[152px] bg-[#070707] bg-home-bg'>
       <div className='relative'>
         <iframe
           className="w-[1300px] h-[500px] border-2 border-[#DCCA87]"
@@ -11,7 +11,7 @@ const Map = () => {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-        <p className="absolute inset-0 flex justify-center items-center bg-[#000000] bg-opacity-40 transition-all duration-300 group pointer-events-none">
+        <p className="absolute inset-0 flex justify-center items-center bg-[#1d1d1d] bg-opacity-40 transition-all duration-300 group pointer-events-none">
           
         </p>
       </div>

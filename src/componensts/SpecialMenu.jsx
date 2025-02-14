@@ -5,11 +5,11 @@ import fork from "../assets/fork.png";
 import spoon from "../assets/spoon.png";
 import Rectangle from "../assets/Rectangle.png";
 import blender from "../assets/blender.jpg";
-import Button from './layer/Button';
+import Button from "./layer/Button";
 
 const SpecialMenu = () => {
   return (
-    <div className="my-[152px] h-[100vh]">
+    <div className="py-[152px] bg-[#070707] bg-home-bg h-auto">
       <Container>
         <div className="flex flex-col gap-y-2 justify-center items-center">
           <p className="text-[#ffffff] font-CU text-[23px] font-bold leading-[30px]">
@@ -33,13 +33,9 @@ const SpecialMenu = () => {
 
             <div className="flex flex-col gap-y-10">
               <div>
-
-
                 <div className="flex items-center gap-x-8">
                   <p className="text-[#DCCA87] font-CU text-[23px] font-bold leading-[30px] capitalize flex gap-x-8 items-center w-[192px] ">
                     Chapel Hill Shiraz
-
-
                   </p>
 
                   <Image src={Rectangle} />
@@ -52,13 +48,9 @@ const SpecialMenu = () => {
               </div>
 
               <div>
-
-
                 <div className="flex items-center gap-x-8">
                   <p className="text-[#DCCA87] font-CU text-[23px] font-bold leading-[30px] capitalize flex gap-x-8 items-center w-[192px] ">
                     Catena Malbec
-
-
                   </p>
 
                   <Image src={Rectangle} />
@@ -71,13 +63,9 @@ const SpecialMenu = () => {
               </div>
 
               <div>
-
-
                 <div className="flex items-center gap-x-8">
                   <p className="text-[#DCCA87] font-CU text-[23px] font-bold leading-[30px] capitalize flex gap-x-8 items-center  w-[192px]">
                     La Vieille Rosé
-
-
                   </p>
 
                   <Image src={Rectangle} />
@@ -90,13 +78,9 @@ const SpecialMenu = () => {
               </div>
 
               <div>
-
-
                 <div className="flex items-center gap-x-8">
                   <p className="text-[#DCCA87] font-CU text-[23px] font-bold leading-[30px] capitalize flex gap-x-8 items-center  w-[192px]">
                     Rhino Pale Ale
-
-
                   </p>
 
                   <Image src={Rectangle} />
@@ -109,14 +93,9 @@ const SpecialMenu = () => {
               </div>
 
               <div>
-
-
                 <div className="flex items-center gap-x-8">
                   <p className="text-[#DCCA87] font-CU text-[23px] font-bold leading-[30px] capitalize flex gap-x-8 items-center  w-[192px]">
                     Irish Guinness
-
-
-
                   </p>
 
                   <Image src={Rectangle} />
@@ -127,9 +106,7 @@ const SpecialMenu = () => {
                   IE | 750 ml
                 </p>
               </div>
-
             </div>
-
           </div>
 
           {/* ===================== */}
@@ -142,14 +119,9 @@ const SpecialMenu = () => {
 
             <div className="flex flex-col gap-y-10">
               <div>
-
-
                 <div className="flex items-center gap-x-8">
                   <p className="text-[#DCCA87] font-CU text-[23px] font-bold leading-[30px] capitalize flex gap-x-8 items-center w-[192px] ">
                     Aperol Spritz
-
-
-
                   </p>
 
                   <Image src={Rectangle} />
@@ -162,14 +134,9 @@ const SpecialMenu = () => {
               </div>
 
               <div>
-
-
                 <div className="flex items-center gap-x-8">
                   <p className="text-[#DCCA87] font-CU text-[23px] font-bold leading-[30px] capitalize flex gap-x-8 items-center w-[192px] ">
                     Dark 'N' Stormy
-
-
-
                   </p>
 
                   <Image src={Rectangle} />
@@ -182,13 +149,9 @@ const SpecialMenu = () => {
               </div>
 
               <div>
-
-
                 <div className="flex items-center gap-x-8">
                   <p className="text-[#DCCA87] font-CU text-[23px] font-bold leading-[30px] capitalize flex gap-x-8 items-center  w-[192px]">
                     Daiquiri
-
-
                   </p>
 
                   <Image src={Rectangle} />
@@ -201,14 +164,9 @@ const SpecialMenu = () => {
               </div>
 
               <div>
-
-
                 <div className="flex items-center gap-x-8">
                   <p className="text-[#DCCA87] font-CU text-[23px] font-bold leading-[30px] capitalize flex gap-x-8 items-center  w-[192px]">
                     Old Fashioned
-
-
-
                   </p>
 
                   <Image src={Rectangle} />
@@ -221,14 +179,9 @@ const SpecialMenu = () => {
               </div>
 
               <div>
-
-
                 <div className="flex items-center gap-x-8">
                   <p className="text-[#DCCA87] font-CU text-[23px] font-bold leading-[30px] capitalize flex gap-x-8 items-center  w-[192px]">
                     Negroni
-
-
-
                   </p>
 
                   <Image src={Rectangle} />
@@ -239,19 +192,14 @@ const SpecialMenu = () => {
                   Gin | Sweet Vermouth | Campari | Orange garnish
                 </p>
               </div>
-
             </div>
-
           </div>
 
           {/* ==================== */}
-
         </div>
         <div className="flex justify-center items-center mt-16 ">
-          <Button className='w-[136px] ' text="View More" />
+          <Button className="w-[136px] " text="View More" />
         </div>
-
-
       </Container>
     </div>
   );

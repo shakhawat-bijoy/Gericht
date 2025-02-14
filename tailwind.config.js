@@ -11,8 +11,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'bg-img': "url('https://i.ibb.co/1ngVR61/bg.jpg')",
-        'home-bg': "url('https://i.ibb.co/4Nn0mrD/home-bg.jpg')",
+        'bg-img': "url('https://imageshack.com/i/poHxJyDHp')",
+        'home-bg': "url('https://imageshack.com/i/pmLk8zCbp')",
       }
     },
   },

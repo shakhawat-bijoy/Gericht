@@ -9,7 +9,7 @@ import kl from "../assets/KevinLuo.png"
 
 const ChefWord = () => {
     return (
-        <div className=" bg-bg-img bg-cover z-20 py-32">
+        <div className=" bg-bg-img bg-cover z-20 py-32 pt-[152px]">
             <Container>
                 <div className="main flex gap-x-24 justify-center items-center">
                     <div className="left">
