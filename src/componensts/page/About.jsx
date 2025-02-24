@@ -9,7 +9,7 @@ import Newsletter from '../Newsletter'
 
 const About = () => {
   return (
-    <div className="bg-home-bg z-10 bg-repeat-x">
+    <div className="bg-[#070707] bg-home-bg">
       <AboutBanner text="Welcome to Gerícht"/>
       <AboutHistory/>
       <AboutVideo/>
